@@ -1,5 +1,4 @@
 package exercicios;
-
 import java.util.Arrays;
 
 public class ex1 {
