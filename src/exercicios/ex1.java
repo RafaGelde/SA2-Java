@@ -8,8 +8,10 @@ public class ex1 {
         int ponteiro = 7, Aux;
 
         System.out.println("Tamanho da lista = "+ ponteiro);
-        System.out.println("Maior valor = "+ L[3]);
-        System.out.println("Menor Valor = "+ L[5]);
+        System.out.print("Maior valor = ");
+        Arrays.stream(L).max().ifPresent(System.out::println);
+        System.out.print("Menor Valor = ");
+        Arrays.stream(L).min().ifPresent(System.out::println);
         System.out.println("Soma dos numeros = "+Arrays.stream(L).sum());
         for (int i = 0; i < L.length; i++) {
             for (int j = 0; j < L.length-1; j++) {
