@@ -11,8 +11,8 @@ public class ex6 {
         horas = scan.nextInt();
 
         for (int i = 0; i < horas; i++) {
-            segundo = segundo + 60;
+            segundo = segundo + 3600;
         }
-        System.out.println("Sua voncerção resultou em :"+segundo+" segundos");
+        System.out.println("Sua converção resultou em :"+segundo+" segundos");
     }
 }
